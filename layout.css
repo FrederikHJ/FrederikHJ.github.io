@@ -1,0 +1,37 @@
+<style>
+  .block {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+
+  .block img {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .blockcontent {
+    flex: 1;
+  }
+
+  .blockcontent h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .blockcontent span {
+    font-size: 0.9em;
+    color: #666;
+  }
+
+  .blockcontent p {
+    margin: 0.5rem 0;
+  }
+</style>
+
